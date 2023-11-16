@@ -1,0 +1,146 @@
+/*------------------------------
+--------------------------------
+	Author: Edmond Yeboah
+--------------------------------
+--------------------------------*/
+
+
+/* ---------------------------
+FONT IMPORT 
+------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+/* -----------------------
+PERSONAL BOOTSTRAP
+-------------------------- */
+:root {
+	--primary-color: #15213A;
+	--secondary-color: #A07F3D;
+	--fs-14:14px;
+	--fs-17:17px;
+	--fs-45:45px;
+	--fs-70:70px;
+	--fs-20:20px;
+}
+
+.primary-btn {
+	border-radius: 10px !important;
+	background-color: var(--primary-color) !important;
+	width: 122px !important;
+	height: 46px !important;
+	border: none !important;
+	font-size: 14px !important;
+}
+
+.secondary-btn {
+	border-radius: 10px !important;
+	background-color: var(--secondary-color) !important;
+	width: 177px !important;
+	height: 50px !important;
+	border: none !important;
+	font-size: 16px !important;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.spacer-1{
+	margin-top: 150px;
+}
+
+.fs-20{
+	font-size: var(--fs-20);
+}
+
+
+
+/*-------------------------
+ BODY
+ -------------------------- */
+body {
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+
+
+/* ------------------------
+HEADER
+---------------------------*/
+.logo {
+	max-width: 189px;
+	max-height: 40px;
+}
+
+.nav-item a{
+	font-size: 14px !important;
+	color: #000;
+}
+
+.nav-item a:hover{
+	text-decoration: underline var(--secondary-color);
+	text-underline-offset: 0.6rem;
+	color: var(--primary-color) !important;
+}
+
+
+
+
+/* ------------------------
+HERO
+---------------------------*/
+
+.hero{
+	height: 677px;
+	background-image: url("/assets/images/hero-imag.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text{
+	font-size: var(--fs-70);
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+
+/* ------------------------
+PROPERTY LIST SECTION
+---------------------------*/
+
+.property-title{
+	font-size: var(--fs-45);
+	font-weight: 500;
+}
+
+.property-desc{
+	font-size:var(--fs-17);
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.property-img{
+	border-radius: 10px;
+	min-height: 350px;
+}
+
+
+/* ------------------------
+LIVE YOUR DREAM SECTION
+---------------------------*/
+
+.live-dream{
+	background-image: url("/assets/images/dream.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 510px;
+}
+
+.dream-text{
+	font-size: var(--fs-70);
+	font-weight: 400;
+}

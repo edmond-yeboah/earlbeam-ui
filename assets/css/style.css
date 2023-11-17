@@ -122,6 +122,9 @@ HERO
 	background-image: url("/assets/images/blogimage.jpg");
 }
 
+.contact{
+	background-image: url("/assets/images/contact.jpg");
+}
 .hero-text {
 	font-size: var(--fs-70);
 	font-weight: 700;
@@ -277,6 +280,37 @@ CONTACT SECTION
 	border: 1px solid #000 !important;
 	background: #FFF !important;
 	font-size: var(--fs-17) !important;
+}
+
+/* for contact page */
+
+.address-card{
+	background-color: var(--primary-color);
+	border-radius: 20px;
+	padding: 40px;
+}
+
+.address-card p{
+	color: #fff;
+	margin-top: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-div{
+	height: 500px;
+}
+
+.map{
+	border-radius: 10px;
+}
+
+.map-div{
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	z-index: -5;
+	
 }
 
 

@@ -54,7 +54,7 @@ PERSONAL BOOTSTRAP
 	font-size: var(--fs-20);
 }
 
-.link-active{
+.link-active {
 	text-decoration: underline var(--secondary-color) !important;
 	text-underline-offset: 0.6rem;
 	color: var(--primary-color) !important;
@@ -114,8 +114,12 @@ HERO
 	margin-right: -50vw;
 }
 
-.about{
+.about {
 	background-image: url("/assets/images/aboutimg.jpg");
+}
+
+.blog {
+	background-image: url("/assets/images/blogimage.jpg");
 }
 
 .hero-text {
@@ -148,37 +152,84 @@ PROPERTY LIST SECTION
 
 
 /* for about */
-.about-title{
+.about-title {
 	font-size: var(--fs-70);
 	font-weight: 400;
 	line-height: normal;
 	padding-right: 10px;
 }
 
-.about-desc{
+.about-desc {
 	font-size: var(--fs-17);
 	font-weight: 400;
 	line-height: 24px;
 }
 
+
+
+
+/* ------------------------
+BLOG SECTION
+---------------------------*/
+.blog-date {
+	font-size: var(--fs-17);
+	font-style: normal;
+	font-weight: 300;
+}
+
+.blog-desc {
+	font-size: var(--fs-17);
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.featured h1 {
+	font-size: var(--fs-75);
+	font-weight: 400;
+	line-height: normal;
+}
+
+.featured img {
+	border-radius: 10px;
+}
+
+.other-blog h1 {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.other-blog img {
+	width: 374px;
+	height: 265px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+
+
+
 /* ------------------------
 IPO SECTION
 ---------------------------*/
 
-.ipo h2{
+.ipo h2 {
 	color: #fff;
 	font-size: var(--fs-20);
 	font-weight: 400;
 	line-height: normal;
 }
 
-.ipo p{
+.ipo p {
 	color: #fff;
 	margin-bottom: 0;
 	margin-top: 40px;
+	padding-bottom: 10px;
 }
 
-.ipo img{
+.ipo img {
 	margin-bottom: 10px;
 }
 
@@ -234,7 +285,7 @@ CONTACT SECTION
 FOOTER SECTION
 ---------------------------*/
 
-footer li{
+footer li {
 	list-style: none;
 	color: rgba(255, 255, 255, 0.80);
 	font-size: var(--fs-17);
@@ -242,11 +293,11 @@ footer li{
 	margin-bottom: 11px;
 }
 
-footer ul{
+footer ul {
 	padding-left: 0;
 }
 
-footer h3{
+footer h3 {
 	text-transform: uppercase;
 	font-size: var(--fs-17);
 	line-height: 24px;
@@ -255,7 +306,7 @@ footer h3{
 	margin-bottom: 16px;
 }
 
-.blue-bg{
+.blue-bg {
 	background-color: var(--primary-color);
 	width: 100vw;
 	position: relative;
@@ -265,7 +316,7 @@ footer h3{
 	margin-right: -50vw;
 }
 
-.copy-right{
+.copy-right {
 	font-size: var(--fs-17);
 	font-weight: 300;
 	color: rgba(255, 255, 255, 0.80);

@@ -54,6 +54,12 @@ PERSONAL BOOTSTRAP
 	font-size: var(--fs-20);
 }
 
+.link-active{
+	text-decoration: underline var(--secondary-color) !important;
+	text-underline-offset: 0.6rem;
+	color: var(--primary-color) !important;
+}
+
 
 
 /*-------------------------
@@ -108,6 +114,10 @@ HERO
 	margin-right: -50vw;
 }
 
+.about{
+	background-image: url("/assets/images/aboutimg.jpg");
+}
+
 .hero-text {
 	font-size: var(--fs-70);
 	font-weight: 700;
@@ -136,6 +146,41 @@ PROPERTY LIST SECTION
 	min-height: 350px;
 }
 
+
+/* for about */
+.about-title{
+	font-size: var(--fs-70);
+	font-weight: 400;
+	line-height: normal;
+	padding-right: 10px;
+}
+
+.about-desc{
+	font-size: var(--fs-17);
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/* ------------------------
+IPO SECTION
+---------------------------*/
+
+.ipo h2{
+	color: #fff;
+	font-size: var(--fs-20);
+	font-weight: 400;
+	line-height: normal;
+}
+
+.ipo p{
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+.ipo img{
+	margin-bottom: 10px;
+}
 
 /* ------------------------
 LIVE YOUR DREAM SECTION
@@ -210,7 +255,7 @@ footer h3{
 	margin-bottom: 16px;
 }
 
-.footer-bg{
+.blue-bg{
 	background-color: var(--primary-color);
 	width: 100vw;
 	position: relative;

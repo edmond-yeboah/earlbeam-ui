@@ -26,7 +26,6 @@ PERSONAL BOOTSTRAP
 	--fs-75: 75px;
 	--fs-20: 20px;
 }
-
 .primary-btn {
 	border-radius: 10px !important;
 	background-color: var(--primary-color) !important;
@@ -124,6 +123,10 @@ HERO
 
 .contact{
 	background-image: url("/assets/images/contact.jpg");
+}
+
+.project{
+	background-image: url("/assets/images/projectImage.jpg");
 }
 .hero-text {
 	font-size: var(--fs-70);

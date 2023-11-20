@@ -71,7 +71,6 @@ body {
 
 
 
-
 /* ------------------------
 HEADER
 ---------------------------*/
@@ -311,7 +310,7 @@ CONTACT SECTION
 .map-div{
 	position: absolute;
 	width: 100%;
-	top: 25%;
+	top: 15%;
 	z-index: -5;
 	
 }
